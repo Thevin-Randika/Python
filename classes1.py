@@ -5,7 +5,7 @@ class Flight:
         self.destination = destination
         self.duration = duration
 
-    def main():
+def main():
 
         # Create flight.
         f = Flight(origin="New York", destination="Paris", duration=540)
@@ -18,5 +18,5 @@ class Flight:
         print(f.destination)
         print(f.duration)
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
         main()
